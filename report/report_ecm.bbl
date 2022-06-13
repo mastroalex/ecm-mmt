@@ -16,5 +16,92 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}\enddatalist
+\datalist[entry]{none/global//global/global}
+  \entry{de_ninno_high-throughput_2020}{article}{}
+    \name{author}{8}{}{%
+      {{hash=DNA}{%
+         family={De\bibnamedelima Ninno},
+         familyi={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+         given={Adele},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Reale},
+         familyi={R\bibinitperiod},
+         given={Riccardo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Giovinazzo},
+         familyi={G\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BFR}{%
+         family={Bertani},
+         familyi={B\bibinitperiod},
+         given={Francesca\bibnamedelima R.},
+         giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Businaro},
+         familyi={B\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Bisegna},
+         familyi={B\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Matteucci},
+         familyi={M\bibinitperiod},
+         given={Claudia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Caselli},
+         familyi={C\bibinitperiod},
+         given={Federica},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{DNA+1}
+    \strng{fullhash}{DNARRGABFRBLBPMCCF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.bios.2019.111887
+    \endverb
+    \field{issn}{09565663}
+    \field{pages}{111887}
+    \field{title}{High-throughput label-free characterization of viable,
+  necrotic and apoptotic human lymphoma cells in a coplanar-electrode
+  microfluidic impedance chip}
+    \verb{url}
+    \verb https://linkinghub.elsevier.com/retrieve/pii/S0956566319309662
+    \endverb
+    \field{volume}{150}
+    \verb{file}
+    \verb De Ninno et al_2020_High-throughput label-free characterization of vi
+    \verb able, necrotic and apoptotic.pdf:C\:\\Users\\bigba\\Zotero\\storage\\
+    \verb 7ZSJ7JXF\\De Ninno et al_2020_High-throughput label-free characteriza
+    \verb tion of viable, necrotic and apoptotic.pdf:application/pdf;Submitted
+    \verb Version:C\:\\Users\\bigba\\Zotero\\storage\\HW96TFT4\\De Ninno et al.
+    \verb  - 2020 - High-throughput label-free characterization of via.pdf:appl
+    \verb ication/pdf
+    \endverb
+    \field{journaltitle}{Biosensors and Bioelectronics}
+    \field{month}{02}
+    \field{year}{2020}
+    \field{urlday}{17}
+    \field{urlmonth}{05}
+    \field{urlyear}{2022}
+  \endentry
+\enddatalist
 \endinput
