@@ -78,7 +78,7 @@ plot(frequency_span, imag(eps_mix),'-or');
 ylabel('sgm_{mix}','Color','r')
 
 
-cell.cyt.sgm=10e-3;
+cell.cyt.sgm=10e-1;
 
 [signal_double, fCM,cell,eps_mix]=equivalentCircuitModel(med,cell,frequency_span);
 
