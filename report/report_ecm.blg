@@ -23,45 +23,45 @@ Warning--I didn't find a database entry for "bibid"
 Biblatex version: 3.16
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 2 entries,
+You've used 5 entries,
             6393 wiz_defined-function locations,
-            1215 strings with 9894 characters,
-and the built_in function-call counts, 17071 in all, are:
-= -- 1295
-> -- 479
-< -- 39
-+ -- 701
-- -- 337
-* -- 1183
-:= -- 2449
+            1254 strings with 13219 characters,
+and the built_in function-call counts, 44987 in all, are:
+= -- 2826
+> -- 2139
+< -- 173
++ -- 2447
+- -- 1678
+* -- 2958
+:= -- 6122
 add.period$ -- 0
-call.type$ -- 2
-change.case$ -- 10
-chr.to.int$ -- 72
-cite$ -- 2
-duplicate$ -- 1494
-empty$ -- 1359
-format.name$ -- 122
-if$ -- 3093
+call.type$ -- 5
+change.case$ -- 37
+chr.to.int$ -- 174
+cite$ -- 8
+duplicate$ -- 4127
+empty$ -- 3441
+format.name$ -- 365
+if$ -- 7652
 int.to.chr$ -- 0
-int.to.str$ -- 3
+int.to.str$ -- 11
 missing$ -- 0
-newline$ -- 105
-num.names$ -- 43
-pop$ -- 475
+newline$ -- 272
+num.names$ -- 167
+pop$ -- 1532
 preamble$ -- 1
-purify$ -- 27
+purify$ -- 81
 quote$ -- 0
-skip$ -- 279
+skip$ -- 899
 stack$ -- 0
-substring$ -- 2665
-swap$ -- 288
-text.length$ -- 57
+substring$ -- 5516
+swap$ -- 1003
+text.length$ -- 178
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 56
+type$ -- 158
 warning$ -- 0
-while$ -- 330
+while$ -- 748
 width$ -- 0
-write$ -- 104
+write$ -- 268
 (There was 1 warning)

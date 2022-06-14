@@ -1,10 +1,7 @@
 function [med,cell]=data(flag)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% load data for correspondi flag
 %signal_type={'bead','viable','necrotic','apoptotic intact','apoptotic permeable'};
-% double shell
+
 eps0 = 8.854e-12;
 med.sgm= 1.6;
 med.eps= 80*eps0;
@@ -14,6 +11,7 @@ switch flag
         cell.shell='single';
         mem.thickness=10e-9; %[m]
         cell.radius=3e-6; %[m]
+        int.radius=cell.radius;
         mem.sgm=1e10; %[S/m]
         mem.eps= 12.8*eps0; 
         int.sgm=2.7e-3; %[S/m]
@@ -25,6 +23,7 @@ switch flag
         cell.shell='single';
         mem.thickness=10e-9; %[m]
         cell.radius=9e-6; %[m]
+        int.radius=cell.radius;
         mem.sgm=0; %[S/m]
         mem.eps= 12.8*eps0; 
         int.sgm=0.6; %[S/m]
@@ -36,6 +35,7 @@ switch flag
         cell.shell='single';
         mem.thickness=10e-9; %[m]
         cell.radius=9e-6; %[m]
+        int.radius=cell.radius;
         mem.sgm=1e-3; %[S/m]
         mem.eps= 12.8*eps0; 
         int.sgm=0.6; %[S/m]
@@ -47,6 +47,7 @@ switch flag
         cell.shell='single';
         mem.thickness=10e-9; %[m]
         cell.radius=3e-6; %[m]
+        int.radius=cell.radius;
         mem.sgm=0; %[S/m]
         mem.eps= 12.8*eps0; 
         int.sgm=0.6; %[S/m]
@@ -58,6 +59,7 @@ switch flag
         cell.shell='single';
         mem.thickness=10e-9; %[m]
         cell.radius=3e-6; %[m]
+        int.radius=cell.radius;
         mem.sgm=1e-3; %[S/m]
         mem.eps= 12.8*eps0; 
         int.sgm=0.6; %[S/m]

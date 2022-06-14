@@ -17,6 +17,141 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{honradoSinglecellMicrofluidicImpedance2021}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HC}{%
+         family={Honrado},
+         familyi={H\bibinitperiod},
+         given={Carlos},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Bisegna},
+         familyi={B\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SNS}{%
+         family={Swami},
+         familyi={S\bibinitperiod},
+         given={Nathan\bibnamedelima S.},
+         giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Caselli},
+         familyi={C\bibinitperiod},
+         given={Federica},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HC+1}
+    \strng{fullhash}{HCBPSNSCF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Review of chip designs and data analytics to stratify heterogeneity in
+  cellular systems via microfluidic impedance cytometry. , The biophysical
+  analysis of single-cells by microfluidic impedance cytometry is emerging as a
+  label-free and high-throughput means to stratify the heterogeneity of
+  cellular systems based on their electrophysiology. Emerging applications
+  range from fundamental life-science and drug assessment research to
+  point-of-care diagnostics and precision medicine. Recently, novel chip
+  designs and data analytic strategies are laying the foundation for
+  multiparametric cell characterization and subpopulation distinction, which
+  are essential to understand biological function, follow disease progression
+  and monitor cell behaviour in microsystems. In this tutorial review, we
+  present a comparative survey of the approaches to elucidate cellular and
+  subcellular features from impedance cytometry data, covering the related
+  subjects of device design, data analytics ( i.e. , signal processing,
+  dielectric modelling, population clustering), and phenotyping applications.
+  We give special emphasis to the exciting recent developments of the technique
+  (timeframe 2017–2020) and provide our perspective on future challenges and
+  directions. Its synergistic application with microfluidic separation, sensor
+  science and machine learning can form an essential toolkit for label-free
+  quantification and isolation of subpopulations to stratify heterogeneous
+  biosystems.%
+    }
+    \verb{doi}
+    \verb 10.1039/D0LC00840K
+    \endverb
+    \field{issn}{1473-0197, 1473-0189}
+    \field{number}{1}
+    \field{pages}{22\bibrangedash 54}
+    \field{shortjournal}{Lab Chip}
+    \field{shorttitle}{Single-Cell Microfluidic Impedance Cytometry}
+    \field{title}{Single-Cell Microfluidic Impedance Cytometry: From Raw
+  Signals to Cell Phenotypes Using Data Analytics}
+    \verb{url}
+    \verb http://xlink.rsc.org/?DOI=D0LC00840K
+    \endverb
+    \field{volume}{21}
+    \field{langid}{english}
+    \verb{file}
+    \verb /Users/alessandromastrofini/Zotero/storage/DIJHH9SS/Honrado et al. -
+    \verb 2021 - Single-cell microfluidic impedance cytometry from.pdf;/Users/a
+    \verb lessandromastrofini/Zotero/storage/EKHMVR9E/Honrado et al_2021_Single
+    \verb -cell microfluidic impedance cytometry.pdf
+    \endverb
+    \field{journaltitle}{Lab on a Chip}
+    \field{year}{2021}
+    \field{urlday}{11}
+    \field{urlmonth}{05}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{hanai_method_1975}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HT}{%
+         family={Hanai},
+         familyi={H\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Koizumi},
+         familyi={K\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=IA}{%
+         family={Irimajiri},
+         familyi={I\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{HTKNIA1}
+    \strng{fullhash}{HTKNIA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/BF00537642
+    \endverb
+    \field{issn}{0340-1057, 1432-1017}
+    \field{number}{4}
+    \field{pages}{285\bibrangedash 294}
+    \field{title}{A method for determining the dielectric constant and the
+  conductivity of membrane-bounded particles of biological relevance}
+    \verb{url}
+    \verb http://link.springer.com/10.1007/BF00537642
+    \endverb
+    \field{volume}{1}
+    \verb{file}
+    \verb Hanai et al_1975_A method for determining the dielectric constant and
+    \verb  the conductivity of.pdf:C\:\\Users\\bigba\\Zotero\\storage\\8NL33ADH
+    \verb \\Hanai et al_1975_A method for determining the dielectric constant a
+    \verb nd the conductivity of.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Biophysics of Structure and Mechanism}
+    \field{year}{1975}
+    \field{urlday}{14}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
   \entry{de_ninno_high-throughput_2020}{article}{}
     \name{author}{8}{}{%
       {{hash=DNA}{%
@@ -99,6 +234,61 @@
     \field{journaltitle}{Biosensors and Bioelectronics}
     \field{month}{02}
     \field{year}{2020}
+    \field{urlday}{17}
+    \field{urlmonth}{05}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{irimajiri_dielectric_1979}{article}{}
+    \name{author}{3}{}{%
+      {{hash=IA}{%
+         family={Irimajiri},
+         familyi={I\bibinitperiod},
+         given={Akihiko},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hanai},
+         familyi={H\bibinitperiod},
+         given={Tetsuya},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=IA}{%
+         family={Inouye},
+         familyi={I\bibinitperiod},
+         given={Akira},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{IAHTIA1}
+    \strng{fullhash}{IAHTIA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/0022-5193(79)90268-6
+    \endverb
+    \field{issn}{00225193}
+    \field{number}{2}
+    \field{pages}{251\bibrangedash 269}
+    \field{title}{A dielectric theory of “multi-stratified shell” model
+  with its application to a lymphoma cell}
+    \verb{url}
+    \verb https://linkinghub.elsevier.com/retrieve/pii/0022519379902686
+    \endverb
+    \field{volume}{78}
+    \verb{file}
+    \verb Irimajiri et al_1979_A dielectric theory of “multi-stratified shell
+    \verb ” model with its application to a.pdf:C\:\\Users\\bigba\\Zotero\\st
+    \verb orage\\VZ5VD63B\\Irimajiri et al_1979_A dielectric theory of “multi
+    \verb -stratified shell” model with its application to a.pdf:application/
+    \verb pdf
+    \endverb
+    \field{journaltitle}{Journal of Theoretical Biology}
+    \field{month}{05}
+    \field{year}{1979}
     \field{urlday}{17}
     \field{urlmonth}{05}
     \field{urlyear}{2022}

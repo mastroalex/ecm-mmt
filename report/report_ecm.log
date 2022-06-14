@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  13 JUN 2022 19:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  14 JUN 2022 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1467,78 +1467,96 @@ Package biblatex Info: ... file 'report_ecm.bbl' found.
 Package biblatex Info: Reference section=0 on input line 152.
 Package biblatex Info: Reference segment=0 on input line 152.
  (./testo.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 1412) in paragraph at lines 12--13
+[]\T1/stix/m/n/12 Vengono quindi af-frontate la model-lazione e
+ []
 
-<figures/modello_circuitale.png, id=4, 660.4675pt x 305.14pt>
-File: figures/modello_circuitale.png Graphic file (type png)
-<use figures/modello_circuitale.png>
-Package pdftex.def Info: figures/modello_circuitale.png  used on input line 12.
-
-(pdftex.def)             Requested size: 235.75613pt x 108.9191pt.
+(./figures//citometro.pdf_tex
+<figures//citometro.pdf, id=4, page=1, 348.59666pt x 269.08305pt>
+File: figures//citometro.pdf Graphic file (type pdf)
+<use figures//citometro.pdf, page 1>
+Package pdftex.def Info: figures//citometro.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 235.75613pt x 181.98042pt.
 LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
-ne 14.
+ne 57.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixex on input lin
-e 14.
+e 57.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixex.fd
 File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input l
-ine 14.
+ine 57.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixfrak.fd
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixbb on input lin
-e 14.
+e 57.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixbb.fd
 File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixcal on input li
-ne 14.
+ne 57.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixcal.fd
 File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
 ons
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixsf on input lin
-e 14.
+e 57.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixsf.fd
 File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixtt on input lin
-e 14.
+e 57.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 
 )
-<figures/modello_circuitale1.png, id=6, 449.68pt x 256.96pt>
-File: figures/modello_circuitale1.png Graphic file (type png)
-<use figures/modello_circuitale1.png>
-Package pdftex.def Info: figures/modello_circuitale1.png  used on input line 17
-.
-(pdftex.def)             Requested size: 124.08258pt x 70.90535pt.
-
+<figures//citometro.pdf, id=5, page=2, 348.59666pt x 269.08305pt>
+File: figures//citometro.pdf Graphic file (type pdf)
+<use figures//citometro.pdf, page 2>
+Package pdftex.def Info: figures//citometro.pdf , page2 used on input line 63.
+(pdftex.def)             Requested size: 235.75613pt x 181.98042pt.
+)
+(./figures//cell.pdf_tex
+<figures//cell.pdf, id=6, page=1, 514.40877pt x 368.97263pt>
+File: figures//cell.pdf Graphic file (type pdf)
+<use figures//cell.pdf, page 1>
+Package pdftex.def Info: figures//cell.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 198.53288pt x 142.40114pt.
+<figures//cell.pdf, id=7, page=2, 514.40877pt x 368.97263pt>
+File: figures//cell.pdf Graphic file (type pdf)
+<use figures//cell.pdf, page 2>
+Package pdftex.def Info: figures//cell.pdf , page2 used on input line 61.
+(pdftex.def)             Requested size: 198.53288pt x 142.40114pt.
+<figures//cell.pdf, id=8, page=3, 514.40877pt x 368.97263pt>
+File: figures//cell.pdf Graphic file (type pdf)
+<use figures//cell.pdf, page 3>
+Package pdftex.def Info: figures//cell.pdf , page3 used on input line 64.
+(pdftex.def)             Requested size: 198.53288pt x 142.40114pt.
+)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Citation 'bibid' on page 1 undefined on input line 28.
+LaTeX Warning: Citation 'bibid' on page 1 undefined on input line 39.
 
-<figures//logo.png, id=7, 336.384pt x 337.698pt>
+<figures//logo.png, id=9, 336.384pt x 337.698pt>
 File: figures//logo.png Graphic file (type png)
 <use figures//logo.png>
-Package pdftex.def Info: figures//logo.png  used on input line 39.
+Package pdftex.def Info: figures//logo.png  used on input line 46.
 (pdftex.def)             Requested size: 44.82474pt x 45.0pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1552,31 +1570,76 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
  <./figures//logo.png>]
-Underfull \hbox (badness 1038) in paragraph at lines 40--41
+Underfull \hbox (badness 1038) in paragraph at lines 52--53
 \T1/stix/m/n/12 con-dut-tivo, even-tual-mente an-che in-con-trando la
  []
 
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 53.
+(amsmath)                 on input line 65.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 []\T1/stix/m/n/12 Tali con-sid-er-azioni sono analoghe per
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 77--78
+Underfull \hbox (badness 1377) in paragraph at lines 89--90
 \T1/stix/m/n/12 l'impedenza del mix dove però la $\LS1/stix/m/it/12 "[]$ \T1/st
 ix/m/n/12 va sti-
  []
 
-
-Underfull \hbox (badness 1521) in paragraph at lines 95--96
-[]\T1/stix/m/n/12 Mettendo in-sieme quanto de-scritto si ot-tiene
- []
-
+(./figures//homogenization.pdf_tex
+<figures//homogenization.pdf, id=19, page=1, 988.04117pt x 250.88272pt>
+File: figures//homogenization.pdf Graphic file (type pdf)
+<use figures//homogenization.pdf, page 1>
+Package pdftex.def Info: figures//homogenization.pdf , page1 used on input line
+ 56.
+(pdftex.def)             Requested size: 471.51228pt x 119.7256pt.
+<figures//homogenization.pdf, id=20, page=2, 988.04117pt x 250.88272pt>
+File: figures//homogenization.pdf Graphic file (type pdf)
+<use figures//homogenization.pdf, page 2>
+Package pdftex.def Info: figures//homogenization.pdf , page2 used on input line
+ 58.
+(pdftex.def)             Requested size: 471.51228pt x 119.7256pt.
+<figures//homogenization.pdf, id=21, page=3, 988.04117pt x 250.88272pt>
+File: figures//homogenization.pdf Graphic file (type pdf)
+<use figures//homogenization.pdf, page 3>
+Package pdftex.def Info: figures//homogenization.pdf , page3 used on input line
+ 65.
+(pdftex.def)             Requested size: 471.51228pt x 119.7256pt.
+<figures//homogenization.pdf, id=22, page=4, 988.04117pt x 250.88272pt>
+File: figures//homogenization.pdf Graphic file (type pdf)
+<use figures//homogenization.pdf, page 4>
+Package pdftex.def Info: figures//homogenization.pdf , page4 used on input line
+ 69.
+(pdftex.def)             Requested size: 471.51228pt x 119.7256pt.
+<figures//homogenization.pdf, id=23, page=5, 988.04117pt x 250.88272pt>
+File: figures//homogenization.pdf Graphic file (type pdf)
+<use figures//homogenization.pdf, page 5>
+Package pdftex.def Info: figures//homogenization.pdf , page5 used on input line
+ 71.
+(pdftex.def)             Requested size: 471.51228pt x 119.7256pt.
+<figures//homogenization.pdf, id=24, page=6, 988.04117pt x 250.88272pt>
+File: figures//homogenization.pdf Graphic file (type pdf)
+<use figures//homogenization.pdf, page 6>
+Package pdftex.def Info: figures//homogenization.pdf , page6 used on input line
+ 75.
+(pdftex.def)             Requested size: 471.51228pt x 119.7256pt.
+<figures//homogenization.pdf, id=25, page=7, 988.04117pt x 250.88272pt>
+File: figures//homogenization.pdf Graphic file (type pdf)
+<use figures//homogenization.pdf, page 7>
+Package pdftex.def Info: figures//homogenization.pdf , page7 used on input line
+ 77.
+(pdftex.def)             Requested size: 471.51228pt x 119.7256pt.
+<figures//homogenization.pdf, id=26, page=8, 988.04117pt x 250.88272pt>
+File: figures//homogenization.pdf Graphic file (type pdf)
+<use figures//homogenization.pdf, page 8>
+Package pdftex.def Info: figures//homogenization.pdf , page8 used on input line
+ 80.
+(pdftex.def)             Requested size: 471.51228pt x 119.7256pt.
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1585,29 +1648,126 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2 <./figures/modello_circuitale.png> <./figures/modello_circuitale1.png>]
-<figures/screenshot001.png, id=24, 846.16125pt x 207.77625pt>
-File: figures/screenshot001.png Graphic file (type png)
-<use figures/screenshot001.png>
-Package pdftex.def Info: figures/screenshot001.png  used on input line 112.
-(pdftex.def)             Requested size: 170.21486pt x 41.79546pt.
+[2 <./figures//citometro.pdf> <./figures//citometro.pdf
 
-Underfull \hbox (badness 2050) in paragraph at lines 138--139
+pdfTeX warning: pdflatex.exe (file ./figures//citometro.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./figures//cell.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//cell.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./figures//cell.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//cell.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./figures//cell.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//cell.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 1521) in paragraph at lines 138--139
+[]\T1/stix/m/n/12 Mettendo in-sieme quanto de-scritto si ot-tiene
+ []
+
+<../code/figs/diam.pdf, id=81, 363.3575pt x 296.10625pt>
+File: ../code/figs/diam.pdf Graphic file (type pdf)
+<use ../code/figs/diam.pdf>
+Package pdftex.def Info: ../code/figs/diam.pdf  used on input line 159.
+(pdftex.def)             Requested size: 235.75613pt x 192.1279pt.
+<../code/figs/phase.pdf, id=82, 372.39125pt x 296.10625pt>
+File: ../code/figs/phase.pdf Graphic file (type pdf)
+<use ../code/figs/phase.pdf>
+Package pdftex.def Info: ../code/figs/phase.pdf  used on input line 165.
+(pdftex.def)             Requested size: 235.75613pt x 187.4651pt.
+(./figures//str.pdf_tex
+<figures//str.pdf, id=83, page=1, 214.9961pt x 189.70117pt>
+File: figures//str.pdf Graphic file (type pdf)
+<use figures//str.pdf, page 1>
+Package pdftex.def Info: figures//str.pdf , page1 used on input line 64.
+(pdftex.def)             Requested size: 231.00615pt x 203.83794pt.
+<figures//str.pdf, id=84, page=2, 214.9961pt x 189.70117pt>
+File: figures//str.pdf Graphic file (type pdf)
+<use figures//str.pdf, page 2>
+Package pdftex.def Info: figures//str.pdf , page2 used on input line 67.
+(pdftex.def)             Requested size: 231.00615pt x 203.83794pt.
+<figures//str.pdf, id=85, page=3, 214.9961pt x 189.70117pt>
+File: figures//str.pdf Graphic file (type pdf)
+<use figures//str.pdf, page 3>
+Package pdftex.def Info: figures//str.pdf , page3 used on input line 70.
+(pdftex.def)             Requested size: 231.00615pt x 203.83794pt.
+<figures//str.pdf, id=86, page=4, 214.9961pt x 189.70117pt>
+File: figures//str.pdf Graphic file (type pdf)
+<use figures//str.pdf, page 4>
+Package pdftex.def Info: figures//str.pdf , page4 used on input line 73.
+(pdftex.def)             Requested size: 231.00615pt x 203.83794pt.
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3 <./figures//homogenization.pdf> <./figures//homogenization.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//homogenization.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./figures//homogenization.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//homogenization.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./figures//homogenization.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//homogenization.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./figures//homogenization.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//homogenization.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./figures//homogenization.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//homogenization.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./figures//homogenization.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//homogenization.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./figures//homogenization.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//homogenization.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 2050) in paragraph at lines 202--203
 []\T1/stix/m/n/12 In par-ti-co-lare, si ef-fet-tuano delle omog-e-niz-
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 140--141
+Underfull \hbox (badness 1584) in paragraph at lines 204--205
 \T1/stix/m/n/12 così l'interno cel-lu-lare ($[]$). In-fine, si ripete
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+stix on input line 
-142.
-(c:/texlive/2021/texmf-dist/tex/latex/stix/ts1stix.fd
-File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
-)
-Underfull \hbox (badness 2189) in paragraph at lines 146--147
+
+Underfull \vbox (badness 3769) has occurred while \output is active []
+
+<../code/figs/epstilde_mix_plot.pdf, id=112, 851.18pt x 408.52625pt>
+File: ../code/figs/epstilde_mix_plot.pdf Graphic file (type pdf)
+<use ../code/figs/epstilde_mix_plot.pdf>
+Package pdftex.def Info: ../code/figs/epstilde_mix_plot.pdf  used on input line
+ 212.
+(pdftex.def)             Requested size: 471.51228pt x 226.30463pt.
+
+Underfull \hbox (badness 2189) in paragraph at lines 219--220
 []\T1/stix/m/n/12 Vengono quindi ap-pli-cati questi mod-elli per
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+29.
+(c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Underfull \hbox (badness 7685) in paragraph at lines 231--232
+[]\T1/stix/m/n/12 I dati ven-gono car-i-cati tramite la rou-tine
  []
 
 
@@ -1618,7 +1778,99 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3 <./figures/screenshot001.png (PNG copy)>]
+[4 <../code/figs/diam.pdf> <../code/figs/phase.pdf> <./figures//str.pdf> <./fig
+ures//str.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//str.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <./figures//str.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//str.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <./figures//str.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//str.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 5316) in paragraph at lines 233--234
+\T1/stix/m/n/12 per poi ot-tenere il seg-nale in fig. 3. Per
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 235--236
+[]\T1/stix/m/n/12 Per farlo ne-ces-sita del cal-colo delle pro-pri-
+ []
+
+
+Underfull \hbox (badness 5637) in paragraph at lines 237--238
+[]\T1/stix/m/n/12 L'omogeneizzazione delle pro-pri-età cel-lu-lari
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 237--238
+\T1/stix/m/n/12 viene ef-fet-tuata tramite la rou-tine \T1/cmtt/m/n/12 MMT.m \T
+1/stix/m/n/12 che
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 237--238
+\T1/stix/m/n/12 viene sud-di-visa, tramite il campo $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+|[]\T1/stix/b/it/12 Influenza delle vari-azioni dei sin-goli
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 270--271
+\T1/stix/m/n/12 e viene it-er-ata la stessa pro-ce-dura sugli otto
+ []
+
+<../code/figs/eps_mem_pert.pdf, id=132, 528.97626pt x 296.10625pt>
+File: ../code/figs/eps_mem_pert.pdf Graphic file (type pdf)
+<use ../code/figs/eps_mem_pert.pdf>
+Package pdftex.def Info: ../code/figs/eps_mem_pert.pdf  used on input line 293.
+
+(pdftex.def)             Requested size: 235.75613pt x 131.96791pt.
+<../code/figs/sgm_mem_pert.pdf, id=133, 531.9875pt x 296.10625pt>
+File: ../code/figs/sgm_mem_pert.pdf Graphic file (type pdf)
+<use ../code/figs/sgm_mem_pert.pdf>
+Package pdftex.def Info: ../code/figs/sgm_mem_pert.pdf  used on input line 299.
+
+(pdftex.def)             Requested size: 235.75613pt x 131.22241pt.
+<../code/figs/eps_cyt_pert.pdf, id=134, 527.9725pt x 296.10625pt>
+File: ../code/figs/eps_cyt_pert.pdf Graphic file (type pdf)
+<use ../code/figs/eps_cyt_pert.pdf>
+Package pdftex.def Info: ../code/figs/eps_cyt_pert.pdf  used on input line 305.
+
+(pdftex.def)             Requested size: 235.75613pt x 132.22093pt.
+<../code/figs/sgm_cyt_pert.pdf, id=135, 526.96875pt x 296.10625pt>
+File: ../code/figs/sgm_cyt_pert.pdf Graphic file (type pdf)
+<use ../code/figs/sgm_cyt_pert.pdf>
+Package pdftex.def Info: ../code/figs/sgm_cyt_pert.pdf  used on input line 311.
+
+(pdftex.def)             Requested size: 235.75613pt x 132.47395pt.
+<../code/figs/eps_ne_pert.pdf, id=136, 527.9725pt x 296.10625pt>
+File: ../code/figs/eps_ne_pert.pdf Graphic file (type pdf)
+<use ../code/figs/eps_ne_pert.pdf>
+Package pdftex.def Info: ../code/figs/eps_ne_pert.pdf  used on input line 317.
+(pdftex.def)             Requested size: 235.75613pt x 132.22093pt.
+<../code/figs/sgm_ne_pert.pdf, id=137, 530.98375pt x 296.10625pt>
+File: ../code/figs/sgm_ne_pert.pdf Graphic file (type pdf)
+<use ../code/figs/sgm_ne_pert.pdf>
+Package pdftex.def Info: ../code/figs/sgm_ne_pert.pdf  used on input line 323.
+(pdftex.def)             Requested size: 235.75613pt x 131.47092pt.
+<../code/figs/eps_np_pert.pdf, id=138, 528.97626pt x 296.10625pt>
+File: ../code/figs/eps_np_pert.pdf Graphic file (type pdf)
+<use ../code/figs/eps_np_pert.pdf>
+Package pdftex.def Info: ../code/figs/eps_np_pert.pdf  used on input line 329.
+(pdftex.def)             Requested size: 235.75613pt x 131.96791pt.
+<../code/figs/sgm_np_pert.pdf, id=139, 526.96875pt x 296.10625pt>
+File: ../code/figs/sgm_np_pert.pdf Graphic file (type pdf)
+<use ../code/figs/sgm_np_pert.pdf>
+Package pdftex.def Info: ../code/figs/sgm_np_pert.pdf  used on input line 335.
+(pdftex.def)             Requested size: 235.75613pt x 132.47395pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1627,23 +1879,88 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-69.
- (c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+[5 <../code/figs/epstilde_mix_plot.pdf>]
+
+LaTeX Warning: Text page 6 contains only floats.
+
+
+Overfull \vbox (13.48149pt too high) has occurred while \output is active []
+
+
+
+LaTeX Warning: Text page 6 contains only floats.
+
+
+Overfull \vbox (13.48149pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6 <../code/figs/eps_mem_pert.pdf> <../code/figs/sgm_mem_pert.pdf> <../code/fig
+s/eps_cyt_pert.pdf> <../code/figs/sgm_cyt_pert.pdf> <../code/figs/eps_ne_pert.p
+df> <../code/figs/sgm_ne_pert.pdf> <../code/figs/eps_np_pert.pdf> <../code/figs
+/sgm_np_pert.pdf>]
+Underfull \hbox (badness 1237) in paragraph at lines 345--346
+\T1/stix/m/n/12 poco e prin-ci-pal-mente var-iando le pro-pri-età di
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 355--356
+[]\T1/stix/m/n/12 Tali ev-i-denti vari-azioni delle pro-pri-età omo-
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 357--358
+\T1/stix/m/n/12 di-versi ed è pos-si-bile uti-liz-zare tale teo-ria per
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 []\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 \T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
 m /
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 371--371
+[]\T1/stix/m/n/10 Carlos Hon-rado et al. ``Single-Cell Mi-croflu-idic
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 371--371
+\T1/stix/m/n/10 Impedance Cy-tom-e-try: From Raw Sig-nals to Cell
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 371--371
+\T1/stix/m/n/10 Phe-no-types Us-ing Data An-a-lyt-ics''. In: \T1/stix/m/it/10 L
+ab on a
+ []
+
+
+Underfull \hbox (badness 7540) in paragraph at lines 371--371
+\T1/stix/m/it/10 Chip \T1/stix/m/n/10 21.1 (2021), pp. 22^^U54. \T1/stix/m/sc/1
+0 issn\T1/stix/m/n/10 : 1473-0197,
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 371--371
+\T1/stix/m/n/10 1473-0189. \T1/stix/m/sc/10 doi\T1/stix/m/n/10 : $\T1/cmtt/m/n/
+10 10 . 1039 / D0LC00840K$\T1/stix/m/n/10 . \T1/stix/m/sc/10 url\T1/stix/m/n/10
+ :
+ []
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -1651,13 +1968,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5
-
-])
-
-Package caption Warning: Unused \captionsetup[table] on input line 30.
-See the caption package documentation for explanation.
-
+[7] (c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+))
 
 AED: lastpage setting LastPage
 
@@ -1668,7 +1981,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[6
+[8
 
 
 ] (./report_ecm.aux)
@@ -1685,27 +1998,30 @@ Package logreq Info: Writing requests to 'report_ecm.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46262 strings out of 478579
- 1058999 string characters out of 5857457
- 1715404 words of memory out of 5000000
- 63453 multiletter control sequences out of 15000+600000
- 494145 words of font info for 127 fonts, out of 8000000 for 9000
+ 47411 strings out of 478579
+ 1075410 string characters out of 5857457
+ 2080380 words of memory out of 5000000
+ 64583 multiletter control sequences out of 15000+600000
+ 507645 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,15n,97p,1880b,1674s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,19n,97p,1880b,1901s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
-ive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{c:/texlive/2021/texmf-dis
-t/fonts/enc/dvips/stix/stix-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/pub
-lic/stix/STIXGeneral-Bold.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/st
-ix/STIXGeneral-Italic.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/S
-TIXGeneral-Regular.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/
-sftt1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.p
-fb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texl
-ive/2021/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2021/te
-xmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
-Output written on report_ecm.pdf (6 pages, 546910 bytes).
+ive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}<c:/texlive/2021/texmf-dis
+t/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2021/texmf-dist/font
+s/type1/public/stix/STIXGeneral-BoldItalic.pfb><c:/texlive/2021/texmf-dist/font
+s/type1/public/stix/STIXGeneral-Italic.pfb><c:/texlive/2021/texmf-dist/fonts/ty
+pe1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2021/texmf-dist/fonts/type1
+/public/cm-super/sftt0800.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm
+-super/sftt1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sft
+t1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><
+c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/
+2021/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2021/texmf-
+dist/fonts/type1/public/stix/stix-mathscr.pfb><c:/texlive/2021/texmf-dist/fonts
+/type1/public/stix/stix-mathtt.pfb>
+Output written on report_ecm.pdf (8 pages, 743224 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 729 PDF objects out of 1000 (max. 8388607)
+ 610 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
