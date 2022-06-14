@@ -1,2 +1,2 @@
-# ignore .tex file
 report/* linguist-vendored
+report/**/* linguist-vendored
