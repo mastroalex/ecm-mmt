@@ -1,3 +1,4 @@
 report/* linguist-vendored
 report/**/* linguist-vendored
 report/report_ecm.tex = false
+report/mybib.bib = false
