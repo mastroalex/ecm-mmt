@@ -1,4 +1,4 @@
 report/* linguist-vendored
 report/**/* linguist-vendored
-report/testo.tex = false
+report/report_* = false
 
