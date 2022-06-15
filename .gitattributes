@@ -1,3 +1,2 @@
 #report/* linguist-vendored
 report/figures/* linguist-vendored
-report/*.tex linguist-vendored= false
