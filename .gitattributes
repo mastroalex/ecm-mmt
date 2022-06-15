@@ -1,3 +1,4 @@
-report/* linguist-vendored
+report/*.tex linguist-vendored
+report/*.aux linguist-vendored
 report/testo.tex linguist-vendored=false
 report/figures/* linguist-vendored
