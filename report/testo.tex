@@ -9,7 +9,7 @@ Il modello si avvale anche della teoria delle miscele di Maxwell per omogeneizza
 
 Nonostante la semplicità, rispetto altri approcci più completi quali la modellazione FEM, questo approccio permette di ottenere risultati molto veloci e utili alla distinzione tra diverse proprietà dielettriche di membrana.
 
-Vengono quindi affrontate la modellazione e l'analisi di come variazioni delle proprietà dielettriche dei singoli costituenti si rifletto sul segnale modellato.
+Vengono quindi affrontate la modellazione e l'analisi di come variazioni delle proprietà dielettriche dei singoli costituenti si riflettono sul segnale modellato.
 
 Tali proprietà tipicamente sono specchio dello stato di vita cellulare ed è possibile utilizzare questa modellazione per distinguere segnali provenienti da diverse famiglie cellulari quali cellule apoptodiche, cellule in salute o cellule necrotiche.
 
@@ -28,7 +28,7 @@ Tali proprietà tipicamente sono specchio dello stato di vita cellulare ed è po
 	\input{cell.pdf_tex}}
 	\caption{}
 \end{subfigure}\hfill
-	\caption{Schema circuitale di misura nel citometro ad impedenza e tipico segnale (a); equivalente circuitale per cellula nel mezzo (b). Il segnale bipolare presenta il picco nel momento in cui la cellula passa tra le coppie parallele di elettrodi. Nello schema circuitale sono trascurate eventuali impedenze parassite.}
+	\caption{Schema circuitale di misura nel citometro ad impedenza e tipico segnale (a); equivalente circuitale per cellula nel mezzo (b). Il segnale bipolare presenta il picco nel momento in cui la cellula passa tra le coppie parallele di elettrodi tale segnale può essere modellato, al variare della frequenza di misura, in uno schema circuitale equivalente. Nello sono trascurate eventuali impedenze parassite.}
 	\label{fig:modellocircuitale}
 \end{figure*}
 
@@ -36,9 +36,9 @@ Tali proprietà tipicamente sono specchio dello stato di vita cellulare ed è po
 
 La modellazione tramite equivalente circuitale porta in contro la teoria delle miscele di Maxwell (MMT) per modellare le proprietà dielettriche cellulari.
 
-Tale modello permette di descrivere il segnale ottenuto in un citometro ad impedenza ad elettrodi paralleli nel momento in cui la cellula si trova tra una coppia di elettrodi. La presenza della cellula tra gli elettrodi, insieme alla perturbazione del campo elettrico, genera un segnale di corrente differenziale che risulta proporzionale al diametro per il tramite del fattore di Clausis-Mossotti \cite{bibid}.
+Tale modello permette di descrivere il segnale ottenuto in un citometro ad impedenza ad elettrodi paralleli nel momento in cui la cellula si trova tra una coppia di elettrodi. La presenza della cellula tra gli elettrodi, insieme alla perturbazione del campo elettrico, genera un segnale di corrente differenziale che risulta proporzionale al diametro per il tramite del fattore di Clausis-Mossotti.
 
-Nel seguente report verrà considerata una versione semplificata del segnale, pari a:
+Nel seguente report verrà considerata una versione semplificata del segnale, trascurando fattori aggiuntivi legati alle proprietà del circuito di misura, ovvero pari a:
 
 \begin{equation}
 	S=r^{3} f_{C M}
@@ -115,7 +115,7 @@ Tali considerazioni sono analoghe per l'impedenza del mix dove però la $\vareps
 			$\mathtt{apoptotic\: permeable}$ & 3e-6 & 1e-3 & 0.6 & 60$\cdot \varepsilon_0$ \\
 			\hline
 	\end{tabular}}
-	\caption{Parametri per il modello single shell. Differenti stati biologici ostrano differenti proprietà dielettriche.}
+	\caption{Parametri per il modello single shell. Differenti stati biologicim ostrano differenti proprietà dielettriche.}
 	\label{tab:data}
 \end{table*}
 
@@ -166,7 +166,7 @@ E il segnale misurato, trascurando i contributi dispersivi legati agli elettrodi
 		\caption{}
 		\label{fig:phase}
 	\end{subfigure}
-	\caption{Andamento del segnale ottenuto dal modello single shell al variare delle proprietà cellulare. Rappresentato come diametro elettrico (a) e phase (b)}
+	\caption{Andamento del segnale ottenuto dal modello single shell al variare delle proprietà cellulari, rappresentato come diametro elettrico, proporzionale alla radice cubica del modulo (a) e fase (b)}
 	\label{fig:risultati}
 \end{figure*}
 
@@ -182,7 +182,7 @@ E il segnale misurato, trascurando i contributi dispersivi legati agli elettrodi
 \subsection{Shell model}
 
 Avendo visto come portare in conto le proprietà miste di cellula e mezzo non rimane che analizzare come omogeneizzare le proprietà della singola cellula. 
-Le cellule vengono omogenizzate ad un unico materiale avente proprietà $\varepsilon^*_{\operatorname{cell}}$ e tale da portare in conto sia le proprietà della parte interna che della membrana cellula.
+Le cellule vengono omogenizzate ad un unico materiale avente proprietà $\varepsilon^*_{\operatorname{cell}}$ e tale da portare in conto sia le proprietà della parte interna che della membrana cellulare.
 
 Per cellule prive di nucleo, come i globuli rossi, è possibile utilizzare un modello \textbf{single shell}, basato quindi su una membrana esterna sottile ed una zona interna le cui proprietà vengono omogeneizzate come:
 
@@ -216,11 +216,10 @@ Applicando una relazione analoga a \cref{eq:shell} si arriva a stimare le propri
 
 
 
-Vengono quindi applicati questi modelli per modellare segnali di citometria ad impedenza di diverse cellula vitali, necrotiche e apoptotiche \cite{de_ninno_high-throughput_2020}.
+Vengono quindi applicati questi modelli per stimare segnali di citometria ad impedenza di diverse famiglie cellulari in stato vitale, necrotico e apoptotico \cite{de_ninno_high-throughput_2020}.
+I parametri utilizzati, da \citeauthor{de_ninno_high-throughput_2020}, sono riportato in \cref{tab:data}.
 
-I parametri, da \citeauthor{de_ninno_high-throughput_2020}, sono riportato in \cref{tab:data}.
-
-Al fine di rappresentare la fisica del problema sono state utilizzate, all'interno di Matlab, le variabile di tipo struttura. Tali variabili permettono l'aggiunta di alcuni campi e quindi si è utilizzata la sequenza dei campi per rappresentare le proprietà possedute dalla struttura madre. Ad esempio, la permettività della membrana cellulare sarà il campo $\mathtt{eps}$ della struttura $\mathtt{mem}$ a sua volta figlia di $\mathtt{cell}$. 
+Al fine di rappresentare la fisica del problema sono state utilizzate, all'interno di Matlab, le variabili di classe struttura. Tali variabili permettono l'aggiunta di alcuni campi e quindi si è utilizzata la sequenza dei campi per rappresentare le proprietà possedute dalla struttura madre. Ad esempio, la permettività della membrana cellulare sarà il campo $\mathtt{eps}$ della struttura $\mathtt{mem}$ a sua volta figlia di $\mathtt{cell}$. 
 
 Uno schema grafico è presente, per la formulazione double shell, in \cref{fig:structure}, e un esempio in appendice.
 
@@ -230,15 +229,15 @@ Il codice prevede una routine principale \texttt{main.m} e diverse routine ausil
 
 I dati vengono caricati tramite la routine \texttt{data(flag)} passando la flag indicata in \cref{tab:data} per ottenere i relativi parametri e le strutture $\mathtt{cell}$ e $\mathtt{med}$.
 
-La routine principale itera sulle differenti flag per poi ottenere il segnale in \cref{fig:risultati}. Per ogni iterazione, dopo aver richiamato le proprietà materiali, queste vengono passate alla routine $\mathtt{equivalenteCircuitModel.m}$ che si occupa di modellare il circuito equivalente e restituire il segnale come in \cref{eq:signal} e la permettività complessa omogeneizzata (\cref{eq:permett}, tramite $\mathtt{fcm_mix()}$).
+La routine principale itera sulle differenti flag per poi ottenere il segnale in \cref{fig:risultati}. Per ogni iterazione, dopo aver richiamato le proprietà materiali, queste vengono passate alla routine $\mathtt{equivalenteCircuitModel.m}$ che si occupa di modellare il circuito equivalente e restituire il segnale come in \cref{eq:signal} e la permettività complessa omogeneizzata (\cref{eq:permett}, tramite $\mathtt{fcm\_mix()}$).
 
 Per farlo necessita del calcolo delle proprietà omogeneizzate della cellula e del fattore di Clausius-Mossotti. Quest'ultimo viene calcolato tramite una routine corrispondente. 
 
 L'omogeneizzazione delle proprietà cellulari viene effettuata tramite la routine \texttt{MMT.m} che viene suddivisa, tramite il campo $\mathtt{cell.shell}$ nell'implmentazione single shell o double shell.  
 
-Tale routine, oltre a calcolare le relative quantità complesso per il mezzo della routine \texttt{epstile.m} calcola l'omogeneizzazione per il tramite della subroutine \texttt{mixture.m} che applica l'\cref{eq:shell}.
+Tale routine, oltre a calcolare le relative quantità complesse per il tramite della routine \texttt{epstile.m} calcola l'omogeneizzazione per il tramite della subroutine \texttt{mixture.m} che applica l'\cref{eq:shell}.
 
-Dal segnale ottenuto è possibile ricavare il diametro elettrico come la radice cubica del modulo e i risultati sono presenti in \cref{fig:diam} insieme alla fase del segnale in \cref{fig:phase}.
+Dal segnale ottenuto è possibile ricavare il diametro elettrico come la radice cubica del modulo e i risultati sono presenti in \cref{fig:diam}, insieme alla fase del segnale in \cref{fig:phase}.
 
 Dall'analisi dei grafici è possibile identificare differenti peculiarità a seconda delle famiglie che si vogliono distinguere. Effettuando misurazioni a differenti frequenze sarà possibile distinguere tra diversi stati vitali nella popolazione analizzata.
 
@@ -249,7 +248,7 @@ Dall'analisi dei grafici è possibile identificare differenti peculiarità a sec
 
 Per l'implementazione double-shell è sufficiente inserire i campi richiesti per le proprietà cellulari. I parametri utilizzati, noti in letteratura \cite{irimajiri_dielectric_1979}, sono presenti in \cref{tab:double_shell}.
 
-Inseriti i parametri nelle proprietà della struttura $\mathtt{cell}$ la routine \texttt{MMT()} si occupa di fare la doppia omogeneizzazione e restituirne i valori della $\varepsilon_{\operatorname{mix}}^*$. 
+Inseriti i parametri nelle proprietà della struttura $\mathtt{cell}$, la routine \texttt{MMT()} si occupa di fare la doppia omogeneizzazione e restituirne i valori della $\varepsilon_{\operatorname{mix}}^*$. 
 
 Tali valori sono graficati per il tramite della routine \texttt{mix\_plot()} che si occupa di normalizzare i valori e restituire i grafici di $\varepsilon$ e $\sigma$ presente in \cref{fig:epstildemixplot}.
 
@@ -265,7 +264,7 @@ Tali valori sono graficati per il tramite della routine \texttt{mix\_plot()} che
 
 
 
-Inoltre, si analizza l'influenza delle perturbazioni sugli otto parametri descrittivi del modello double shell. Le variazioni vengono effettuate secondo \citeauthor{irimajiri_dielectric_1979}.
+Inoltre, si analizza l'influenza delle perturbazioni sugli otto parametri descrittivi del modello double shell. Le variazioni vengono effettuate secondo \citeauthor{irimajiri_dielectric_1979} \cite{irimajiri_dielectric_1979}.
 
 Vengono quindi caricati i dati delle perturbazioni tramite la struttura $\mathtt{perturbation\_values.data}$ e viene iterata la stessa procedura sugli otto parametri. Il risultato è presente in \cref{fig:perturbazioni}. 
 
@@ -340,9 +339,9 @@ Un esempio della procedura di iterazione è presente in appendice.
 	\label{fig:perturbazioni}
 \end{figure*}
 
-Dai grafici è possibile vedere come il comportamento a bassa frequenza viene influenzato principalmente dalla variazione degli strati esterno con predominanza per le proprietà di membrana.
+Dai grafici è possibile vedere come il comportamento a bassa frequenza viene influenzato principalmente dalla variazione degli strati esterni con predominanza per le proprietà di membrana.
 
-Ad alta frequenza la permettività viene influenza poco e principalmente variando le proprietà di citoplasma e nucleo mentre la conduttività risente molto delle variazioni delle proprietà di citoplasma e nucelo.
+Ad alta frequenza la permettività viene influenzata poco e principalmente variando le proprietà di citoplasma e nucleo mentre la conduttività risente molto delle variazioni delle proprietà di citoplasma e nucelo.
 
 Nella banda centrale la pendenza delle curve risente notevolmente della variazione di $\sigma_{\operatorname{cyt}}$.
 
@@ -377,7 +376,7 @@ Il materiale è disponibile alla repository online del progetto: \url{https://gi
 
 \subsection*{Caricamento dei dati all'interno della struttura}
 
-A seguire uno snippet estratto dalla procedure \texttt{data.m} all'interno di uno switch-case sulla variabile $\mathtt{flag}$.
+A seguire uno snippet estratto dalla procedure \texttt{data.m} all'interno di uno switch-case sulla variabile $\mathtt{flag}$. Tale sezione di codice permette di caricare le strutture $\mathtt{cell}$ e $\mathtt{med}$ con i loro campi contenenti le proprietà dielettriche e geometriche, insieme alla flag \texttt{double} che permetterà, alle relative subroutine, di effettuare l'omogeneizzazione di tipo double shell.
 
 \begin{figure}[h!]
 	\begin{lstlisting}[language=matlab]
@@ -402,7 +401,9 @@ A seguire uno snippet estratto dalla procedure \texttt{data.m} all'interno di un
 
 \subsection*{Perturbazione}
 
-Esempio di iterazione per la perturbazione della permettività della membrana cellulare.
+Esempio di iterazione per la perturbazione della permettività della membrana cellulare. Viene riportato lo snippet della variazione di $\varepsilon_{\operatorname{m e m}}$. 
+
+Una sequenza analoga viene utilizzata anche sugli altri 7 parametri analizzati.
 
 \begin{figure}[h!]
 	\begin{lstlisting}[language=matlab]
