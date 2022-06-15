@@ -17,5 +17,5 @@ The results show that even small errors in the estimation of the parameters lead
 Read the [report](https://github.com/mastroalex/ecm-mmt/blob/main/report/report_ecm.pdf)
 ---
 
-<img src="https://github.com/mastroalex/ecm-mmt/blob/main/report/figures/homogenization.svg" alt="Model" style="width:400px;"> 
+<img src="https://github.com/mastroalex/ecm-mmt/blob/main/report/figures/cell.svg" alt="Model" style="width:400px;"> 
 
