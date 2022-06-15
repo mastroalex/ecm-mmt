@@ -1,2 +1,2 @@
 report/test.tex linguist-vendored
-report/**/* linguist-vendored=false
+report/false/* linguist-vendored=false
