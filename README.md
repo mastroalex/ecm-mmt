@@ -18,4 +18,3 @@ Read the [report](https://github.com/mastroalex/ecm-mmt/blob/main/report/report_
 ---
 
 <img src="https://github.com/mastroalex/ecm-mmt/blob/main/report/figures/cell.svg" alt="Model" style="width:400px;"> 
-
