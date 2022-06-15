@@ -1,4 +1,3 @@
 report/* linguist-vendored
 report/figures/* linguist-vendored
 report/testo.* linguist-vendored=false
-report/report_ecm.* linguist-vendored=false
