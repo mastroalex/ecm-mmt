@@ -1,3 +1,4 @@
-report/**/* linguist-vendored
-report/testo.* linguist-vendored=false
+report/figures/* linguist-vendored
 report/* linguist-vendored
+report/testo.* linguist-vendored=false
+
