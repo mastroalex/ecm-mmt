@@ -2,3 +2,8 @@ report/* linguist-vendored
 report/**/* linguist-vendored
 report/testo.tex = false
 report/mybib.bib = false
+report/report_ecm.aux = false
+report/report_ecm.tex = false
+report/report_ecm.blg = false
+report/report_ecm.log = false
+
