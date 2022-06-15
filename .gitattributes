@@ -1,4 +1,4 @@
-report/testo.* linguist-vendored=false
+report/report_ecm.tex linguist-vendored=false
 report/figures/* linguist-vendored
 report/* linguist-vendored
 
