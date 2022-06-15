@@ -1,4 +1,5 @@
-#report/* linguist-vendored
+report/* linguist-vendored
 report/figures/* linguist-vendored
-report/*.tex = false
+report/*.tex linguist-vendored= false
+
 
